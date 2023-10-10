@@ -1,0 +1,140 @@
+/* ccs for login page */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif, monospace;
+}
+
+body{
+    background-image: linear-gradient(to left, white, whitesmoke);
+    height: 800px;
+    width: 100%;
+}
+
+.header{
+    background-image:  linear-gradient(to right, #1d2024, #353b43);
+    color: white;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.logo{
+    position: absolute;
+    left: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.register-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:20px;
+    padding-top: 100px;
+}
+
+.register-container{
+    margin-left: 20px;
+    margin: auto;
+    height: 615px;
+    width: 500px;  
+    margin-bottom: 10px;
+}
+
+.login-label{
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 1.15em;
+    float: left;
+    display: block;
+    clear: both;
+}
+
+.login-input{
+    font: 1.15em;
+    padding: 10px;
+    margin: 5px;
+    float: right;
+}
+
+.register-button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: right;
+    margin: 5px;
+    margin-top: 10px;
+    clear: both;
+    background-color: #1d2024;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.register-button:hover{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: right;
+    margin: 5px;
+    margin-top: 10px;
+    clear: both;
+    background-color: gold;
+    color: #1d2024;
+    transition-duration: 0.5s;
+}
+
+.register-button:active{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: right;
+    margin: 5px;
+    margin-top: 10px;
+    clear: both;
+    transition-duration: 0.5s;
+    transform: scale(0.8);
+    background-color: gold;
+    color: #1d2024;
+}
+
+
+.link{
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+.rightline{
+	border-left: 2px solid #353b43;
+    height: 600px;
+    position: absolute;
+    margin-left: 7px;
+    position: absolute;
+    right: 21px;
+}
+
+.rightcircle{
+    width: 15px;
+	height: 15px;
+	background: #353b43;
+	border-radius: 50%;
+    position: absolute;
+    right: 15px;
+}

@@ -1,0 +1,163 @@
+/* ccs for login page */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif, monospace;
+}
+
+body{
+    background-color: linear-gradient(to left, white, whitesmoke);
+    min-height: 700px;
+    width: 100%;
+}
+
+.header{
+    background-color:  #1d2024;
+    color: white;
+    height: 125px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo{
+    filter: brightness(0) invert(1);
+}
+
+.box{
+    border: 3px solid #353b43;
+    height: 450px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 5px 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+.box-2{
+    border: 3px solid #353b43;
+    height: 300px;
+    width: 550px;
+    margin: auto;
+    box-shadow: 5px 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.box-title{
+    color: #353b43;
+    font-family: monospace;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.message{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+
+.input-box{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #353b43;
+    font-size: 1.10em;
+}
+
+.button1{
+    border: none;
+    border-radius: 10px;
+    width: 48%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 3px;
+    display: inline-block;
+    transition-duration: 0.5s;
+    background-color: #1d2024;
+    color: white;
+    font-weight: bolder;
+}
+
+.button1:hover{
+    border: none;
+    border-radius: 10px;
+    width: 48%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 3px;
+    display: inline-block;
+    transition-duration: 0.5s;
+    background-color: gold;
+    color: #1d2024;
+    font-weight: bolder;
+}
+
+.button1:active{
+    border: none;
+    border-radius: 10px;
+    width: 48%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 3px;
+    display: inline-block;
+    transition-duration: 0.5s;
+    transform: scale(0.8);
+    background-color: gold;
+    color: #1d2024;
+    font-weight: bolder;
+}
+
+.button2{
+    border: none;
+    border-radius: 10px;
+    width: 30%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 175px;
+    display: inline-block;
+    background-color: #1d2024;
+    color: white;
+    font-weight: bolder;
+}
+
+.position{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.final{
+    color:#353b43;
+    padding-left: 3px;
+}
